@@ -94,6 +94,10 @@ La versión SQL Server está diseñada para **una instancia de backend**. Las no
 
 ## Publicación con Firebase y Render
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Azucena17/subastagt-examen-web)
+
+El Blueprint selecciona el plan `free`. Antes de iniciar, preparar las tres variables de Firebase descritas abajo; sin ellas el backend no puede arrancar.
+
 Esta alternativa permite alojar el backend sin exponer el SQL Server de la computadora. El adaptador está implementado; requiere credenciales y una prueba real en tu cuenta antes de entregar.
 
 1. Crear un proyecto en [Firebase Console](https://console.firebase.google.com/).
