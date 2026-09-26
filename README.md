@@ -5,7 +5,7 @@ Aplicación académica para Desarrollo y Diseño Web. Frontend SPA en **Vue 3**,
 ## Enlaces de entrega
 
 - **Sitio publicado:** pendiente de configurar una cuenta de alojamiento y desplegar.
-- **Repositorio GitHub:** pendiente de conectar la cuenta y subir el repositorio.
+- **Repositorio GitHub:** https://github.com/Azucena17/subastagt-examen-web
 - **Versión local:** http://localhost:3000 — solo accesible mientras se ejecuta el servidor en esta computadora.
 
 No confundir la dirección local con un sitio publicado para evaluación. Este apartado debe actualizarse con los enlaces reales después del despliegue.
