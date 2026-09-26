@@ -4,11 +4,11 @@ Aplicación académica para Desarrollo y Diseño Web. Frontend SPA en **Vue 3**,
 
 ## Enlaces de entrega
 
-- **Sitio publicado:** pendiente de configurar una cuenta de alojamiento y desplegar.
+- **Sitio funcionando (enlace temporal):** https://f220555d705c43.lhr.life
 - **Repositorio GitHub:** https://github.com/Azucena17/subastagt-examen-web
 - **Versión local:** http://localhost:3000 — solo accesible mientras se ejecuta el servidor en esta computadora.
 
-No confundir la dirección local con un sitio publicado para evaluación. Este apartado debe actualizarse con los enlaces reales después del despliegue.
+El enlace público temporal sirve el frontend Vue, que consume el backend real y SQL Server de esta computadora. Requiere mantener encendidos la PC, SQL Server, el proceso Node y el túnel SSH. El proveedor puede cambiar o expirar el dominio. **No es alojamiento permanente**; para una entrega que siga disponible con la PC apagada, completar el despliegue de la sección Firebase/Render o usar alojamiento Windows con SQL Server.
 
 ## Ejecutar en esta computadora
 

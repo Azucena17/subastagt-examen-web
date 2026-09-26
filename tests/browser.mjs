@@ -3,7 +3,7 @@ import {mkdir} from 'node:fs/promises';
 const browser=await chromium.launch({channel:'msedge',headless:true});
 const page=await browser.newPage({viewport:{width:1440,height:1080}});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
-await page.goto('http://localhost:3000');
+await page.goto(process.env.TEST_BASE_URL || 'http://localhost:3000');
 await page.getByRole('heading',{name:'Explora el inventario'}).waitFor();
 await page.locator('.vehicle-card').first().waitFor();
 await mkdir('test-results',{recursive:true});
